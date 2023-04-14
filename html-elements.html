@@ -11,6 +11,7 @@
       <a href="index.html">Home</a>
       <a href="photo-gallery.html">Photo Gallery</a>
       <a href="html-elements.html">HTML Elements</a>
+      <link rel="stylesheet" href="/css/style.css" />
     </header>
     <main>
       <h1>HTML Elements</h1>
@@ -98,10 +99,54 @@
       <span>span content</span>
 
       next content
+
+      <hr />
+
+      <h2>Forms</h2>
+      <form>
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email" placeholder="enter email" />
+
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="enter password"
+        />
+
+        <input type="checkbox" name="rememberMe" id="remember-me" />
+        <label for="remember-me">Remember Me?</label>
+      </form>
+
+      <hr />
+
+      <form>
+        <label for="department">Department</label>
+        <select name="department" id="department">
+          <option value="">Select...</option>
+          <option value="hr">Human Resources</option>
+          <option value="pr">Public Relations</option>
+          <option value="cs">Customer Support</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10">
+  Text Message textetsttxtet
+</textarea>
+       
+
+        <p>Tell us how you found out about us.</p>
+        <input type="radio" name="referral-source" id="internet" />
+        <label for="internet">Internet Ad</label>
+        <input type="radio" name="referral-source" id="tv-ad" />
+        <label for="tv-ad">Television Ad</label>
+        <input type="radio" name="referral-source" id="social-media" />
+        <label for="social-media">Social Media</label>
+      </form>
     </main>
 
     <footer>
-      <a href="Test Link"></a>
+      <a href="Test Link">Test Link</a>
     </footer>
   </body>
 </html>

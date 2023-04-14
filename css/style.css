@@ -1,0 +1,40 @@
+/* 
+div {
+  border: 2px solid rgb(32, 55, 112);
+  background-color: rgb(185, 227, 227);
+  height: 10em;
+  color: rgb(0, 0, 0);
+}
+.second-para {
+  background-color: rgb(72, 72, 116);
+  color: white;
+}
+#highlight {
+  color: rgb(251, 4, 148);
+}
+input[type="text"]:focus {
+  background-color: rgb(211, 162, 224);
+  outline: 2em;
+}
+div,
+section {
+  border: 2px solid rgb(69, 35, 123);
+  margin: 2em;
+}
+table,
+th,
+td {
+  border: 1px solid;
+ color: rgb(36, 36, 54);
+ background-color: rgb(211, 162, 224);
+}
+table {
+  width: 20%;
+}
+#contact{
+    border: 2px solid rgb(69, 35, 123);
+    height: 3em;
+} */
+footer{
+  margin-top: 5em;
+}
